@@ -2,7 +2,7 @@ import pandas as pd
 
 # Load the data from the file into a pandas DataFrame
 drug_data = pd.read_csv(
-    "/projects/Bioinformatics/Users/shixx1/deeplearning/INSIGHT/REACTOME_data_CV100/drugcell_train100_p1.txt", 
+    "demo_data.txt", 
     sep="\t", header=None
 )
 
@@ -24,6 +24,6 @@ drug_data_mean0[2] = drug_data[2] - drug_data[1].map(drug_mean_dict)
 
 # Save the modified DataFrame to a new file
 drug_data_mean0.to_csv(
-    "/projects/Bioinformatics/Users/shixx1/deeplearning/INSIGHT/REACTOME_data_CV100/tmp.txt",
+    "demo_data_mean0.txt",
     header=False, index=False, sep="\t"
 )

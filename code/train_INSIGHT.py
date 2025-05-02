@@ -41,7 +41,7 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 	max_corr = 0
 
 	# dcell neural network
-	model = drugcell_nn(term_size_map, term_direct_gene_map, dG, gene_dim, drug_dim, root, num_hiddens_genotype, num_hiddens_drug, num_hiddens_final,num_hiddens_gf)
+	model = INSIGHT_nn(term_size_map, term_direct_gene_map, dG, gene_dim, drug_dim, root, num_hiddens_genotype, num_hiddens_drug, num_hiddens_final,num_hiddens_gf)
 
 	train_feature, train_label, val_feature, val_label = train_data
 

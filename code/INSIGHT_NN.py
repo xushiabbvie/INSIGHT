@@ -11,11 +11,11 @@ from util import *
 
 
 
-class drugcell_nn(nn.Module):
+class INSIGHT_nn(nn.Module):
 
 	def __init__(self, term_size_map, term_direct_gene_map, dG, ngene, ndrug, root, num_hiddens_genotype, num_hiddens_drug, num_hiddens_final, num_hiddens_gf):
 	
-		super(drugcell_nn, self).__init__()
+		super(INSIGHT_nn, self).__init__()
 
 		self.root = root
 		self.num_hiddens_genotype = num_hiddens_genotype

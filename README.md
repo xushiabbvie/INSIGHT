@@ -1,4 +1,4 @@
-# INSIGHT: In Silico Drug Screening Platform using Interpretable Deep Learning Network [preprint](https://www.biorxiv.org/content/10.1101/2025.04.21.649855v1.abstract)
+# INSIGHT: In Silico Drug Screening Platform using Interpretable Deep Learning Network [[preprint]](https://www.biorxiv.org/content/10.1101/2025.04.21.649855v1.abstract)
 INSIGHT is an interpretable deep learning framework designed to predict drug response in cancer cell lines by integrating multiomics data and drug molecular structures. Leveraging large-scale drug screening datasets such as PRISM (for single agents) and DrugComb (for combinations), INSIGHT can not only predict drug sensitivity for screened cell lines but also extend predictions to unscreened lines and novel therapies based on the drug's structure. Its neural network architecture incorporates prior biological knowledge, such as signaling pathways, into the hidden layers, enabling biological interpretation of results. This allows INSIGHT to identify pathways predictive of drug response, mechanisms of action, and potential off-target effects.
 
 ## Setting up environment

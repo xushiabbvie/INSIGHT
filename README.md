@@ -3,6 +3,8 @@ INSIGHT is an interpretable deep learning framework designed to predict drug res
 
 The preprint version of manuscript is available [here](https://www.biorxiv.org/content/10.1101/2025.04.21.649855v1.abstract).
 
+![plot](github1.png)
+
 ## Setting up environment
 The environment configuration is included in environment.yml. The environment can be created by conda:   
 
